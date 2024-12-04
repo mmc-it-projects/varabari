@@ -1,3 +1,22 @@
+// ========= javacript for sticky menu========
+const navbar = document.querySelector(".navbar");
+console.log(navbar);
+
+window.onscroll = () => {
+  return stickyNavbar();
+};
+
+stickyNavbar = () => {
+  if (window.pageYOffset >= 80) {
+    navbar.classList.add("sticky-menu");
+    if (window.pageXOffset >= 400) {
+    }
+  } else {
+    navbar.classList.remove("sticky-menu");
+  }
+};
+
+// ========= this code for property details img slider
 var slideIndex = 1;
 showDivs(slideIndex);
 
