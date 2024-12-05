@@ -1101,17 +1101,20 @@ justify-content: center;
 .agent-details-wrapper {
   position: sticky; 
   right: 18%;
-  top: 10px; 
+  top: 100px; 
   width: 100%; 
   z-index: 10; 
-  max-height: 100vh;
-  overflow-y: auto;
 }
 .agent-header-part h3{
   font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 28x;
   line-height: 25px;
+}
+.property-location{
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
 }
 /* ==========property details page end========== */
 /* =============property List page start======== */
