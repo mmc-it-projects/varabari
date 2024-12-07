@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varabari</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- =======google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ==========bootsrap====== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- =============navbar start========== -->
+    <nav class="navbar navbar-expand-lg navbar-light contact-nav">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./propertyList.html"
+                >Property List</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+              >
+                Events
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Event One</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Event Two</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Event Three</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <button type="button" class="menu-button">
+            <a href="#">Create Post</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- =============navbar end========== -->
+    <!-- =============contact us page start========== -->
+    <section id="contact-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="bread-crumb">
+              <a href="./index.html"><span>Home</span></a>
+              <span><i class="fa-solid fa-chevron-right"></i></span>
+              <span class="bread-details">Contact Us</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="header-wapper">
+              <div class="header text-center">
+                <h2>Contact Us</h2>
+                <p>
+                  You can create the list using the “latest listing shortcode”
+                  and show items by specific categories.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-4">
+            <div class="contact-info-wrapper">
+              <div class="contact-info-item">
+                <div class="contact-info-icon-wrapper">
+                  <div class="contact-info-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                </div>
+                <div class="contact-info-content">
+                  <p>
+                    Rupayan Karim Tower, Level-9, Sui-B, 80, VIP Road, Kakrail,
+                    Dhaka-1000
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-info-wrapper">
+              <div class="contact-info-item">
+                <div class="contact-info-icon-wrapper">
+                  <div class="contact-info-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                </div>
+                <div class="contact-info-content">
+                  <p>mmc@bol-online.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="contact-info-wrapper">
+              <div class="contact-info-item">
+                <div class="contact-info-icon-wrapper">
+                  <div class="contact-info-icon">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                </div>
+                <div class="contact-info-content">
+                  <p>+880 1819-220110</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6">
+            <div class="contant-map-wrapper">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.139877689918!2d90.40710544061021!3d23.737401328415583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f3673f0211%3A0xd3902f40d12d331f!2sMowla%20Mohammad%20%26%20Co!5e0!3m2!1sen!2sbd!4v1733403010684!5m2!1sen!2sbd"
+                width="100%"
+                height="325"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-us-form-wrapper">
+              <div class="contact-us-form">
+                <h2>Get In Touch</h2>
+                <p>
+                  Send message if you have any problem, complain or any general
+                  query.
+                </p>
+                <form action="">
+                  <div class="d-flex gap-3 mb-3">
+                    <input type="email" class="form-control" placeholder="Your Name">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                  </div>
+                  <input type="email" class="form-control mb-3" placeholder="Subject">
+                  <textarea placeholder="Comments" class="form-control mb-3" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <div class="form-button">
+                    <button
+                      type="button"
+                      class="w-100 secarch-button contact-btn"
+                    >
+                      Search
+                    </button>
+                  </div>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============contact us page end========== -->
+    <!-- =========footer section start======== -->
+    <footer id="footer">
+      <div class="footer-upper-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-lg-4">
+              <div class="footer-top-wrapper">
+                <div class="footer-top-item">
+                  <div class="footer-contact-address py-1 py-md-0">
+                    <div class="icon">
+                      <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <div class="address">
+                      <p>Dhaka, Bangladesh</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-4">
+              <div class="footer-top-wrapper">
+                <div class="footer-top-item">
+                  <div class="footer-contact-address py-1 py-md-0">
+                    <div class="icon">
+                      <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="address">
+                      <p>(347) 430-9510</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-top-wrapper">
+                <div class="footer-top-item">
+                  <div class="footer-contact-address py-1 py-md-0">
+                    <div class="icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="address">
+                      <p>info@varabaribd.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="main-footer-wrapper">
+                <div class="main-footer-item">
+                  <div class="footer-head">
+                    <h3>About Us</h3>
+                  </div>
+                  <div class="footer-content">
+                    <p>
+                      Lorem ipsum dolor Quo indoctum Eu cum dico melius. Cum
+                      impetus scribentur ad.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="main-footer-wrapper">
+                <div class="main-footer-item">
+                  <div class="footer-head">
+                    <h3>Quick Links</h3>
+                  </div>
+                  <div class="footer-content">
+                    <ul>
+                      <li><a href="./aboutUs.html">About</a></li>
+                      <li><a href="#">Terms and Conditions</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="main-footer-wrapper">
+                <div class="main-footer-item">
+                  <div class="footer-head">
+                    <h3>Social Link</h3>
+                  </div>
+                  <div class="footer-content">
+                    <div class="social-link-wrapper">
+                      <div class="social-icon">
+                        <div class="facebook common-footer-icon">
+                          <div class="icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </div>
+                          <a href="#">facebook</a>
+                        </div>
+                        <div class="twitter common-footer-icon">
+                          <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                          <a href="#">twitter</a>
+                        </div>
+                        <div class="linkedin common-footer-icon">
+                          <div class="icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </div>
+                          <a href="#">linkedin</a>
+                        </div>
+                        <div class="pinterest common-footer-icon">
+                          <div class="icon">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                          </div>
+                          <a href="#">pinterest</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 px-md-0">
+              <div class="main-footer-wrapper">
+                <div class="main-footer-item">
+                  <div class="footer-head">
+                    <h3>Newsletter</h3>
+                  </div>
+                  <div class="footer-content">
+                    <p>
+                      Dolor amet sit justo amet elitr clita ipsum elitr est.
+                    </p>
+                  </div>
+                  <div class="footer-subscribe">
+                    <input type="text" placeholder="Enter Your Email" />
+                    <button>Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- <div id="button">
+       <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+     </div> -->
+
+    <!-- =========footer section end======== -->
+    <script src="./js/script.js"></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
