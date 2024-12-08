@@ -2,6 +2,9 @@
   .property-address {
     padding: 15px 20px;
   }
+  .property-deails-location {
+    margin-top: 25px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399.99px) {
   .navbar-light .navbar-brand img {
@@ -238,6 +241,9 @@
     margin-top: 1px;
     display: inline;
   }
+  .agent-details-item {
+    margin-top: 77px;
+  }
   .details ul:first-child {
     width: 50%;
   }
@@ -246,6 +252,9 @@
     font-size: 14px;
     line-height: 21px;
     margin-top: 6px;
+  }
+  .property-deails-location {
+    margin-top: 18px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -567,7 +576,9 @@
   .feature-item .icon i {
     font-size: 10px;
   }
-
+  .agent-details-item {
+    margin-top: 78px;
+  }
   .agent-header-part h3 {
     font-size: 22px;
     line-height: 21px;
@@ -575,6 +586,9 @@
   .agent-profile {
     width: 85px;
     height: 85px;
+  }
+  .property-deails-location {
+    margin-top: 18px;
   }
   /* ============property details page end========== */
 }
@@ -955,6 +969,9 @@
     font-size: 22px;
     line-height: 21px;
   }
+  .agent-details-item {
+    margin-top: 39px;
+  }
   .agent-profile {
     width: 80px;
     height: 80px;
@@ -1333,6 +1350,9 @@
     width: 80px;
     height: 80px;
   }
+  .property-deails-location {
+    margin-top: 19px;
+  }
   /* ============property details page end========== */
 }
 @media (max-width: 575.99px) {
@@ -1696,6 +1716,9 @@
   .agent-profile {
     width: 75px;
     height: 75px;
+  }
+  .property-deails-location {
+    margin-top: 19px;
   }
   /* ============property details page end========== */
 }
