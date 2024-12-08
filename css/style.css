@@ -49,6 +49,7 @@ body {
   top: 0%;
   left: 0%;
   width: 100%;
+  z-index: 999;
 }
 .navbar-light .navbar-brand img {
   height: 50px;
@@ -1007,7 +1008,7 @@ border-radius: 10px;
 }
 .property-feature{
   margin-top: 20px;
-  padding: 20px 10px;
+  padding: 20px 20px;
   box-shadow: 0px 1px 5px 0 rgba(0, 110, 225, 0.2);
   border-radius: 10px;
 }
@@ -1109,7 +1110,7 @@ justify-content: center;
 .agent-header-part h3{
   font-family: var(--secondary-font);
   font-weight: 600;
-  font-size: 28x;
+  font-size: 28px;
   line-height: 25px;
 }
 .property-deails-location{
