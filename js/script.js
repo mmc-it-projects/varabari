@@ -1,3 +1,17 @@
+
+// ========== for back to top
+$(window).scroll(function () {
+  var top = $(this).scrollTop();
+
+  if (top > 400) {
+    $("#button").addClass("back-to-top");
+  } else {
+    $("#button").removeClass("back-to-top");
+  }
+});
+$("#button").click(function () {
+  $("html,body").animate({ scrollTop: 0 }, 1000);
+});
 // ==========jQuery for testimonial slider=====
 $(function () {
   $(".review-slide").slick({
@@ -7,6 +21,7 @@ $(function () {
     autoplaySpeed: 2000,
     arrows: false,
     pauseOnHover: false,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 991,
@@ -44,6 +59,7 @@ $(function () {
     arrows: false,
     infinite: true,
     pauseOnHover: false,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 1200,

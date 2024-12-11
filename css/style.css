@@ -41,7 +41,7 @@ body {
 /* =========navbar css start ========== */
 .navbar {
   background-color: var(--white-color);
-  padding: 12px 0px !important;
+  padding: 10px 0px !important;
   box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.3);
@@ -525,6 +525,9 @@ transform: rotate(30deg);
   border: 1px solid rgba(31, 60, 138, 0.178);
 }
 
+.input-field input:focus {
+  box-shadow: 0 0 3px rgba(0, 146, 93, 0.603);
+}
 .contact-right-part {
   background-color: var(--white-color);
   border-radius: 5px;
@@ -673,7 +676,7 @@ padding-bottom: 7px;
 /* ==========footer section start======= */
 #footer {
   padding-top: 30px;
-  padding-bottom: 20px;
+  overflow-x: hidden;
   background-color: #0E2E50;
 
 }
@@ -839,6 +842,18 @@ padding-bottom: 7px;
 }
 .footer-subscribe button:hover {
   background-color: var(--primary-color);
+}
+.copy-right-content{
+  border-top: 1px solid #ffffff38;
+  
+}
+.copy-right-content p{
+  margin-bottom: 0px;
+  padding: 10px 0px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+   color: rgba(255, 255, 255, 0.747);
+  font-size: 13px;
 }
 /* ==========footer section end======= */
 
@@ -1180,3 +1195,44 @@ font-size: 16px;
 }
 
 /* =============contact-Us page end======== */
+
+/* ==========back to top========= */
+.back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  animation: 1s linear 0.1s back;
+}
+
+@keyframes back {
+  0% {
+    bottom: 90%;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
+.back-to-top i {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.back-to-top i:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 1px solid var(--white-color);
+}
+.nav-item.active .nav-link {
+  color: var(--primary-color) !important;
+  font-weight: 700 !important;
+}
+
+/* ==========back to top========= */
